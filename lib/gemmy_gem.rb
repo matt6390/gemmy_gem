@@ -1,5 +1,7 @@
 require "gemmy_gem/version"
 
 module GemmyGem
-  # Your code goes here...
+  def name
+    `say Matt`
+  end
 end
